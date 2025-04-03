@@ -12,7 +12,7 @@ const { throwop } = require('yanoop')
 const throwError = require('throw-error')
 const bail = esmRequire('bail').bail
 const If = require('if')
-const clc = require('picocolors')
+const picocolors = require('picocolors')
 const isError = require('is-error')
 const assert = require('assert-fn')
 const nativeAssert = require('node:assert')
@@ -96,7 +96,7 @@ exports.immediateError = function immediateError(message = 'ERROR!', errorType =
       rand: Math.random(),
       If,
       console,
-      clc,
+      picocolors,
       bail
    }
    vm.createContext(context)
