@@ -1,6 +1,6 @@
 {
   "name": "immediate-error",
-  "version": "5.1.1",
+  "version": "6.0.0",
   "description": "Throw errors, better.",
   "main": "index.js",
   "scripts": {
@@ -29,10 +29,12 @@
     "es-errors": "^1.3.0",
     "esm-wallaby": "^3.2.30",
     "five": "^0.8.0",
+    "get-intrinsic": "^1.3.0",
     "if": "^2.0.0",
     "is-error": "^2.2.2",
     "none": "^1.0.0",
     "number-six": "^1.0.1",
+    "number-zero": "^1.0.3",
     "numeric-constant-three": "^1.0.0",
     "picocolors": "^1.1.1",
     "the-number-one": "^1.0.1",
