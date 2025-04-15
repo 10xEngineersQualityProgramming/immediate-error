@@ -12,6 +12,8 @@ immediateError('Aaaaah') // this will throw a regular Error with the message "Aa
 
 immediateError('Aaaaah', ErrorType.BaseError) // does the same thing as above
 
+immediateError('Aggregate error', ErrorType.AggregateError) // throws an AggregateError
+
 immediateError('Assertion error', ErrorType.AssertionError) // throws an AssertionError (from the assert-fn module)
 
 immediateError('Assertion error', ErrorType.NativeAssertionError) // throws an AssertionError (from the node:assert module)
